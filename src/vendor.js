@@ -5,7 +5,7 @@ const events = require('./events');
 
 setInterval(() => {
   let data = {
-    storeName: process.env.STORENAME,
+    storeName: process.env.STORENAME || 'FOREVERYTHING STORE',
     customerName: faker.name.findName(),
     orderID: faker.random.uuid(),
     address: faker.address.streetAddress(),
