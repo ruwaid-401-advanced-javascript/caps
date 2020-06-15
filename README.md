@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/ruwaid-401-advanced-javascript/caps/pull/1)
-- [Github actions](https://github.com/ruwaid-401-advanced-javascript/caps/pull/1/checks)
+- [submission PR](https://github.com/ruwaid-401-advanced-javascript/caps/pull/2)
+- [Github actions](https://github.com/ruwaid-401-advanced-javascript/caps/pull/2/checks)
 
 
 ## Modules
@@ -19,16 +19,12 @@
 ### Setup
 #### .env requirements
 * STORENAME - name of the store
+* PORT - port number
 
 
 #### How to initialize/run your application 
-* `npm start`
-
-
-#### How to use your library 
-#### Tests
-- Lint test: `npm run lint`
-- unit test: `npm test`
+* start server 
+* start clients
 
 #### UML
 
