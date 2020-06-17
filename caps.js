@@ -1,26 +1,10 @@
 'use strict';
 
-require('dotenv').config();
+const io = require('socket.io-client');
+const caps = io.connect('http://localhost:3000/caps');
 
+caps.emit('join','caps');
 
-const events = require('./src/events');
-const driver = require('./src/driver');
-require('./src/vendor');
-
-
-events.on('pickup', payload => all('pickup', payload));
-events.on('in-transit', payload => logIt('in-transit', payload));
-events.on('delivered', payload => logIt('delivered', payload));
-
-function logIt(event, payload) {
-  let time = new Date();
-  console.log({ event, time, payload });
-}
-
-function all(event, payload) {
-  logIt(event, payload);
-  driver(payload);
-  setTimeout(() => {
-    console.log('VENDOR: Thank you');
-  }, 5000);
-}
+caps.on('msg',data =>{
+  console.log('Event',data);
+});

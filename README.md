@@ -1,20 +1,19 @@
-# LAB - Class 16
+# LAB - Class 18
 
-## Project: Event Driven Applications
+## Project: Socket io
 
 ### Author: Ruwaid al sayyed obeid
 
 ### Links and Resources
 
-- [submission PR](https://github.com/ruwaid-401-advanced-javascript/caps/pull/1)
-- [Github actions](https://github.com/ruwaid-401-advanced-javascript/caps/pull/1/checks)
+- [submission PR](https://github.com/ruwaid-401-advanced-javascript/caps/pull/3)
+- [Github actions](https://github.com/ruwaid-401-advanced-javascript/caps/pull/3/checks)
 
 
 ## Modules
 ### caps.js
 ### vendor.js
 ### driver.js
-### evens.js
 
 ### Setup
 #### .env requirements
@@ -22,13 +21,12 @@
 
 
 #### How to initialize/run your application 
-* `npm start`
+run for rooms
+* `node server.js`
+* `node caps.js`
+* `node vendor.js`
+* `node driver.js`
 
-
-#### How to use your library 
-#### Tests
-- Lint test: `npm run lint`
-- unit test: `npm test`
 
 #### UML
 
