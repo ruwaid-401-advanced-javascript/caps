@@ -18,6 +18,7 @@
 ### Setup
 #### .env requirements
 * STORENAME - name of the store
+* PORT - port number
 
 
 #### How to initialize/run your application 
